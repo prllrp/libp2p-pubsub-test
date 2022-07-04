@@ -9,12 +9,18 @@
   },
   "license": "ISC",
   "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^3.0.2",
     "@chainsafe/libp2p-noise": "^6.2.0",
     "@libp2p/bootstrap": "^2.0.0",
+    "@libp2p/floodsub": "^3.0.2",
+    "@libp2p/interface-pubsub": "^1.0.4",
     "@libp2p/mplex": "^3.0.0",
     "@libp2p/webrtc-star": "^2.0.1",
     "@libp2p/websockets": "^3.0.0",
-    "libp2p": "../../"
+    "ipfs-pubsub-room": "^3.0.0",
+    "libp2p": "../../",
+    "libp2p-gossipsub": "^0.13.0",
+    "process": "^0.11.10"
   },
   "devDependencies": {
     "vite": "^2.8.6"
